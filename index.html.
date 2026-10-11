@@ -1,0 +1,109 @@
+!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>QORIX — Технологии твоего стиля</title>
+
+<style>
+
+*{box-sizing:border-box}
+
+body{margin:0;background:#090b10;color:#f5f5fa;font-family:Arial,sans-serif}
+
+header{padding:22px 7%;border-bottom:1px solid #292d38;font-size:28px;font-weight:900;letter-spacing:5px}
+
+header span{color:#a78bfa}
+
+.hero{padding:85px 7%;background:radial-gradient(ellipse at 80% 30%,#302044,#090b10 65%)}
+
+.tag{color:#a78bfa;letter-spacing:3px;font-size:12px}
+
+h1{font-size:clamp(44px,10vw,78px);line-height:1.05;letter-spacing:-2px}
+
+h1 span{color:#a78bfa}
+
+p{color:#b4b8c5;line-height:1.8}
+
+.btn{display:inline-block;margin-top:20px;padding:15px 22px;background:#a78bfa;color:#090b10;text-decoration:none;font-weight:bold;border-radius:7px}
+
+section{padding:55px 7%}
+
+h2{font-size:30px}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:15px}
+
+.card{padding:24px;background:#121620;border:1px solid #2a2e3b;border-radius:12px}
+
+.card b{font-size:19px}
+
+.symbol{font-size:35px;margin-bottom:18px}
+
+.contact{text-align:center;background:#12101b}
+
+footer{padding:25px 7%;color:#858b99;border-top:1px solid #292d38;font-size:13px}
+
+</style>
+
+</head>
+
+<body>
+
+<header>QOR<span>I</span>X</header>
+
+<main>
+
+<div class="hero">
+
+<div class="tag">TECHNOLOGY · STYLE · POWER</div>
+
+<h1>ТВОИ ПРАВИЛА.<br><span>ТВОЯ ТЕХНОЛОГИЯ.</span></h1>
+
+<p>Современные аксессуары для смартфонов, компьютеров и гейминга. Стиль, качество и технологии в каждой детали.</p>
+
+<a class="btn" href="#catalog">НАШИ КАТЕГОРИИ ↗</a>
+
+</div>
+
+<section id="catalog">
+
+<div class="tag">QORIX COLLECTION</div>
+
+<h2>Выбирай свой стиль</h2>
+
+<div class="grid">
+
+<div class="card"><div class="symbol">◈</div><b>Смартфоны</b><p>Чехлы, стёкла, кабели и зарядки.</p></div>
+
+<div class="card"><div class="symbol">⌘</div><b>Компьютеры</b><p>Мыши, клавиатуры и аксессуары.</p></div>
+
+<div class="card"><div class="symbol">◉</div><b>Гейминг</b><p>Аксессуары для твоей игровой зоны.</p></div>
+
+<div class="card"><div class="symbol">ϟ</div><b>Зарядка</b><p>Энергия для устройств каждый день.</p></div>
+
+</div>
+
+</section>
+
+<section class="contact" id="contact">
+
+<div class="tag">QORIX · KAZAKHSTAN</div>
+
+<h2>Будь на шаг впереди.</h2>
+
+<p>Скоро здесь появятся контакты и информация о товарах.</p>
+
+</section>
+
+</main>
+
+<footer>© 2026 QORIX. Все права защищены.</footer>
+
+</body>
+
+</html>
